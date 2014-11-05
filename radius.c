@@ -16,7 +16,6 @@ double radius(struct triangle t)
     double A, p, r;
     A = area(t); 
     p = perimeter(t);
-    r = 2*A/p;
-    printf("variable r used within the function = %f (length of this text changes result)\n",r);
+    r = 2.*A/p;
     return(r);
  }
